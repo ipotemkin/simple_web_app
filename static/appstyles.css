@@ -1,0 +1,13 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 700px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.main_font {
+    font-family: Verdana, Helvetica, Arial;
+}

@@ -1,0 +1,20 @@
+{% extends 'menu_bar.html' %}
+
+{% block content %}
+
+<h2>Добавить пользователя</h2>
+<div class="board">
+    <form action="" method="post">
+        <input name="name" type="text" value="Имя">
+        <input name="age" type="text" value="Возраст" size="10">
+        <label><input name="disabled" type="checkbox"> Заблокирован</label>
+        <input type="date" name="unblock_date">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<!--<p>{{ user.name }}</p>-->
+<!--<p>{{ user.age }}</p>-->
+<!--<p>{{ user.is_blocked }}</p>-->
+<!--<p>{{ user.unblock_date }}</p>-->
+
+{% endblock %}

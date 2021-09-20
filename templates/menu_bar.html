@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/appstyles.css">
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Title</title>
+    {% endif %}
+</head>
+<body class="main_font">
+    <div>
+        <b>База пользователей</b>
+        <a href="/"><small><b>Все пользователи</b></small></a>
+        <a href="/search/"><small><b>Поиск</b></small></a>
+        <a href="/add_user/"><small><b>Добавить</b></small></a><hr>
+        <br>
+    </div>
+        {% block content %}{% endblock %}
+</body>
+</html>

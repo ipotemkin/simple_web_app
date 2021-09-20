@@ -1,0 +1,20 @@
+{% extends 'menu_bar.html' %}
+
+{% block content%}
+
+<h2>Пользователи</h2>
+<div class="board">
+    {% for user in users %}
+    <p>
+        <b style="color: blue; font-size: 20px;">{{ user.name }}</b>,
+        {{ user.age }},
+        {% if user.is_blocked %}
+        заблокирован, разблокируется {{ user.unblock_date }}
+        {% else %}
+        не заблокирован
+        {% endif %}
+    </p>
+{% endfor %}
+</div>
+
+{% endblock %}

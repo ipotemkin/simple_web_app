@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Ivan",
+    "age": 31,
+    "is_blocked": true,
+    "unblock_date": "2023-03-04"
+  },
+  {
+    "name": "Maxim",
+    "age": 34,
+    "is_blocked": true,
+    "unblock_date": "2012-02-05"
+  },
+  {
+    "name": "Peter",
+    "age": 27,
+    "is_blocked": false
+  },
+  {
+    "name": "Jonh",
+    "age": 36,
+    "is_blocked": false
+  },
+  {
+    "name": "Chris",
+    "age": 29,
+    "is_blocked": false
+  },
+  {
+    "name": "David",
+    "age": 23,
+    "is_blocked": true,
+    "unblock_date": "2012-06-15"
+  }
+]
